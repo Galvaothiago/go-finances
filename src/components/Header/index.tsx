@@ -1,10 +1,10 @@
 import {Text} from "react-native"
-import {Container} from "./style"
+import {Container, Title} from "./style"
 
 export function Header() {
 	return (
 		<Container>
-			<Text>"Teste"</Text>
+			<Title>Dashboard</Title>
 		</Container>
 	)
 }
